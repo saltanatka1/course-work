@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content:space-evenly;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  margin-top: 40px;
+}
+nav ul li button {
+  background-color: rgba(111, 44, 255, 1);
+  border-radius: 20px;
+  border-color: rgba(111, 44, 255, 1);
+  width: 157px;
+  height: 40px;
+  color: white;
+}
+header {
+  width: 1440px;
+  height: 755px;
+}
+
