@@ -88,17 +88,15 @@ body {
 }
 .topbar {
   background-color: white;
-  box-shadow: 0 0 10px rgb(0, 0, 0, 0.4);
-  padding: 20px 15px;
-
-  display: flex;
 }
 
-
+nav {
+display: flex;
+}
 .nav {
   display: flex;
   flex-wrap: wrap;
-
+  justify-content: center;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -109,14 +107,39 @@ body {
   padding: 10px 15px;
   text-decoration: none;
   border-radius: 10px;
-
+  font-size: 14px;
   display: block;
 }
-.nav  .nav-link:hover {
-  color: rgb(8, 45, 113);
+nav img {
+  margin-right: auto;
+  width: 4vw;
+  margin-left: 20px;
 }
-.nav .nav-link.active {
+.nav-button {
+  margin-left: auto;
+  background-color: blueviolet;
+  border-radius: 30px;
+  padding: 10px 25px;
+  border-color: blueviolet;
+  font-size: 12px;
+  margin-right: 40px ;
   color: white;
-  background-color: coral;
 }
+.nav-linking {
+  text-decoration: none;
+  font-size: 15px;
+  margin-right: 50px;
+  margin-top: 10px;
+  color: black;
+
+}
+.head {
+  margin-top:2vh ;
+  padding-top: 30vh;
+  padding-left: 10vw;
+  padding-bottom: 30vh;
+  background-image: url(./images/bg1.jpg);
+}
+
+
 

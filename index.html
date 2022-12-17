@@ -1,7 +1,6 @@
 <html>
   <head>
     <link rel="stylesheet" href="style.css" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,18 +11,20 @@
   <body>
     <header class="topbar">
       <nav>
+        <img src="./images/logo.jpg" alt="logotip" />
         <ul class="nav">
-          <li class="nav-item"><img src="./images/logo.jpg" alt="logotip" /></li>
           <li class="nav-item"><a href="#" class="nav-link">Who Qubit?</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Products</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Solutions</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Customers</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Case studies</a></li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Case studies</a>
+          </li>
           <li class="nav-item"><a href="#" class="nav-link">Resoucers</a></li>
           <li class="nav-item"><a href="#" class="nav-link">More</a></li>
-          <li class="nav-item"><button class="nav-link">Book a demo</button></li>
-          <li class="nav-item"><a href="#" class="nav-link">Log in</a></li>
         </ul>
+        <button class="nav-button">Book a demo</button>
+        <a href="#" class="nav-linking"> Log in</a>
       </nav>
       <div class="head">
         <span>Driving growth with personalization.</span>
@@ -37,8 +38,8 @@
           experiences.
         </p>
         <div class="head-button">
-          <button>Enter your email</button>
-          <button>Book a demo</button>
+          <button id="head-button-left">Enter your email</button>
+          <button id="head-button-right">Book a demo</button>
         </div>
       </div>
     </header>
