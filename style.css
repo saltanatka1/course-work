@@ -186,3 +186,22 @@ nav img {
   color: white;
   margin-left: -5px;
 }
+.section1 .section1-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.section1 h2 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700px;
+  line-height: 30px;
+}
+.section1 p {
+  display: inline-block;
+  margin-left: 44vw;
+  font-size: 16px;
+  font-weight: 700;
+  border-bottom: 3px solid rgba(111, 44, 255, 1);
+  
+}
