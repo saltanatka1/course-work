@@ -84,7 +84,7 @@ body {
   display: flex;
 }
 .card.card-horizontal .card-image {
-  width: 30%;
+  width: 50%;
 }
 .topbar {
   background-color: white;
@@ -122,8 +122,8 @@ nav img {
   margin-left: auto;
   background-color: rgba(111, 44, 255, 1);
   
-  border-radius: 30px;
-  padding: 10px 20px;
+  border-radius: 25px;
+  padding: 10px 40px;
   border: none;
   font-size: 12px;
   margin-right: 40px;
@@ -204,4 +204,42 @@ nav img {
   font-weight: 700;
   border-bottom: 3px solid rgba(111, 44, 255, 1);
   
+}
+.section2 {
+  display: flex;
+  margin: 108px 182px 94px 70px;
+}
+.row{
+  flex-direction: column;
+  border-left: 1px solid rgba(0, 0, 0, 0.31);
+  padding-right: 3vw;
+}
+.section2-content-left-side {
+  width: 50%;
+}
+.section2-content-left-side h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+}
+.section2-content-left-side #inside-left-side {
+  display: flex;
+  margin-bottom: 56px;
+  margin-top: 50px;
+}
+.section2-content-left-side 
+#inside-left-side button {
+  background-color: rgba(111, 44, 255, 1);
+  
+  border-radius: 30px;
+  padding: 10px 40px;
+  border: none;
+  font-size: 12px;
+  margin-right: 40px;
+  color: white;
+}
+#inside-left-side p {
+  font-size: 16px;
+  font-weight: 700;
+  border-bottom: 3px solid rgba(111, 44, 255, 1);
 }
