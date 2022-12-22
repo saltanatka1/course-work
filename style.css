@@ -73,7 +73,7 @@ body {
 .card {
   background-color: white;
   border: 2px solid rgb(240, 240, 240);
-  box-shadow: 0 0 10px 5px rgba(16, 15, 15, 0.637);
+  box-shadow: 0 0 10px 5px rgba(16, 15, 15, 0.47);
   margin-bottom: 20px;
 }
 .card .card-image {
@@ -377,9 +377,19 @@ nav img {
 }
 .section7 .container {
   display: flex;
+  max-width: 900px;
+  flex-wrap: wrap;
+  padding-bottom: 20vh;
 }
-.section7 .container .row {
+.section7 .container .card {
+  width: 26vw;
+  height: 26vh;
+  margin-right: 3vw;
+  background-color: rgba(23, 0, 46, 1);
+  color: rgba(255, 255, 255, 1);
   border: none;
+  border-radius: 10px;
+  padding: 15px 10px;
 }
 .section7 h1 {
   text-align: center;
@@ -388,4 +398,20 @@ nav img {
 }
 .section7 p {
   text-align: center;
+}
+.section7 .card-head {
+  display: flex;
+}
+.section7 .container .card h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 1vw;
+}
+.section7 .card p {
+  font-size: 15px;
+}
+.section7 .card span {
+  text-align: center;
+  font-size: 13px;
+  border-bottom: 2px solid rgba(255, 255, 255, 1) ;
 }
