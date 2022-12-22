@@ -296,12 +296,12 @@ nav img {
 }
 .section4-buttons {
   display: flex;
+  padding-bottom: 10vh;
 }
 .section4-buttons button {
   padding: 10px 30px;
   border-radius: 30px;
   margin-top: 8vh;
-  padding-bottom: 10vh;
 }
 .section4-buttons .section-1button {
   margin-left: auto;
@@ -317,4 +317,25 @@ nav img {
   background-color: white;
   color: rgba(111, 44, 255, 1);
   font-size: 15px;
+}
+.section5 .row .col-4 {
+  text-align: center;
+  max-width: 300px;
+  margin-left: 8vw;
+  margin-top: 10vh;
+}
+
+.section5 h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+.section5 p {
+  text-align: center;
+}
+.section5 .container .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: none;
 }
