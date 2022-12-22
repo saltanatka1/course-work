@@ -11,7 +11,7 @@ body {
 
 .container {
   /*задать ширину и выровнять по середине*/
-  max-width: 900px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 .row {
@@ -92,7 +92,7 @@ body {
   background-color: white;
 }
 
-nav {
+nav .container {
   display: flex;
 }
 .nav {
@@ -256,6 +256,11 @@ nav img {
   font-size: 40px;
   font-weight: 700;
 }
+.section3 .row .col-4 {
+  text-align: center;
+  max-width: 350px;
+  margin-left: 5vw;
+}
 
 .section3 h1 {
   text-align: center;
@@ -269,4 +274,47 @@ nav img {
   display: flex;
   flex-direction: row;
   border: none;
+}
+.section4 {
+  background-color: rgba(245, 245, 245, 1);
+}
+.section4 h1 {
+  text-align: center;
+  margin-top: 10vh;
+  padding-top: 10vh;
+  font-size: 40px;
+  font-weight: 700;
+}
+.section4 p {
+  text-align: center;
+  font-size: 15px;
+}
+.section4 img {
+  margin-left: 18vw;
+  max-width: 900px;
+  margin-top: 15vh;
+}
+.section4-buttons {
+  display: flex;
+}
+.section4-buttons button {
+  padding: 10px 30px;
+  border-radius: 30px;
+  margin-top: 8vh;
+  padding-bottom: 10vh;
+}
+.section4-buttons .section-1button {
+  margin-left: auto;
+  margin-right: 3vw;
+  color: white;
+  border: none;
+  background-color: rgba(111, 44, 255, 1);
+  font-size: 15px;
+}
+.section4-buttons .section-2button {
+  margin-right: auto;
+  border: none;
+  background-color: white;
+  color: rgba(111, 44, 255, 1);
+  font-size: 15px;
 }
