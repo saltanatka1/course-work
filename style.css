@@ -34,7 +34,7 @@ body {
   flex-grow: 0;
   flex-shrink: 0;
 }
-.col-6 {
+.col-2 {
   flex-basis: 16.6%;
   flex-grow: 1;
   flex-shrink: 1;
@@ -375,4 +375,17 @@ nav img {
 .section6 .card-image img {
   max-width: 250px;
 }
-
+.section7 .container {
+  display: flex;
+}
+.section7 .container .row {
+  border: none;
+}
+.section7 h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+.section7 p {
+  text-align: center;
+}
