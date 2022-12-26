@@ -11,7 +11,7 @@ body {
 
 .container {
   /*задать ширину и выровнять по середине*/
-  max-width: 1400px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 .row {
@@ -217,6 +217,10 @@ nav img {
 .section2-content-left-side {
   width: 50%;
   padding-top: 25vh;
+  margin-left: 5%;
+}
+.section2-content-left-side-two {
+  margin-left: 5%;
 }
 .section2-content-left-side h1 {
   font-size: 40px;
@@ -341,22 +345,25 @@ nav img {
 }
 .section6 {
   background-color: rgba(245, 245, 245, 1);
+  
 }
 .section6 h1 {
   text-align: center;
   font-size: 40px;
   padding-top: 10vh;
 }
-.section6 .container {
+.section6 .content {
   display: flex;
   flex-wrap: wrap;
+  margin: 0 auto;
   margin-top: 10vh;
   padding-bottom: 10vh;
-  margin-left: 20vw;
+  margin-left: 11vw;
 }
 .section6 .container .card {
   max-width: 250px;
   margin-right: 3vw;
+  margin-left: 3%;
   border-radius: 10px;
 }
 .section6 .image1 {
@@ -377,12 +384,14 @@ nav img {
 }
 .section7 .container {
   display: flex;
-  max-width: 900px;
   flex-wrap: wrap;
+  max-width: 990px;
   padding-bottom: 20vh;
+  margin-left: 3vw;
+  margin: 0 auto;
 }
 .section7 .container .card {
-  width: 26vw;
+  width: 27vw;
   height: 28vh;
   margin-right: 3vw;
   background-color: rgba(23, 0, 46, 1);
@@ -413,7 +422,7 @@ nav img {
 .section7 .card span {
   text-align: center;
   font-size: 13px;
-  border-bottom: 2px solid rgba(255, 255, 255, 1) ;
+  border-bottom: 2px solid rgba(255, 255, 255, 1);
 }
 .section8 {
   display: flex;
@@ -424,10 +433,10 @@ nav img {
   margin-right: 5vw;
 }
 .section8-content h1 {
-font-size: 40px;
-font-weight: 700;
-color: rgba(23, 0, 46, 1);
-margin-top: 30vh ;
+  font-size: 40px;
+  font-weight: 700;
+  color: rgba(23, 0, 46, 1);
+  margin-top: 30vh;
 }
 .section8-content p {
   font-size: 13px;
@@ -444,7 +453,7 @@ margin-top: 30vh ;
 }
 .section9 {
   background-image: url(./images/Rectanglesection9-bg.jpg);
-  background-repeat:repeat-x;
+  background-repeat: repeat-x;
 }
 .section9 h1 {
   padding-top: 15vh;
@@ -516,7 +525,7 @@ footer .container .content ul {
 }
 footer .container .content ul li a {
   text-decoration: none;
-  color: rgba(255, 255, 255, 1) ;
+  color: rgba(255, 255, 255, 1);
 }
 .footer-content ul li a {
   font-size: 14px;
@@ -561,7 +570,7 @@ footer .featured1 {
   padding-bottom: 10vh;
 }
 .footer-from-below img {
-  max-width: 150px ;
+  max-width: 150px;
 }
 .footer-logo {
   display: flex;
